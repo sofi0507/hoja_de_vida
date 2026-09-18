@@ -1,0 +1,17 @@
+body {
+    background-color: #b37bfd3a;
+    color: #601a99b9;
+    font-family:Georgia, serif;
+}
+
+h1{
+    color: #1f2937;
+    font-size: 40px;
+}
+.seccion{
+    background-color : white;
+}
+
+#perfil{
+    background-color: #eaf2ff;
+}

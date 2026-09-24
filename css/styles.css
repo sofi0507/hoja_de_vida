@@ -8,10 +8,52 @@ h1{
     color: #1f2937;
     font-size: 40px;
 }
-.seccion{
+/* ====================
+SECCIONES
+====================== */
+section { /*ETIQUETA*/
+    background-color: rgb(18, 219, 18);
+}
+
+.seccion{  /*CLASE*/
     background-color : white;
 }
 
-#perfil{
-    background-color: #b7e2ffc9;
+#perfil{ /*id (#)*/
+    background-color: #85535ec4;
 }
+
+/* ==============
+TEXTOS
+================== */
+h1 {
+    color: rgb(255, 55,88);
+    font-size: 40px;
+}
+h2 {
+    color: rgb(61, 2, 12);
+    font-size: 30px;
+}
+h3 {
+    color: rgb(71, 23, 31);
+    font-size: 25px;
+}
+p {
+    line-height: 1.6; /*SEPARACION- INTERLINEADO*/
+}
+
+/* ====================
+ENCABEZADO
+====================== */
+header {
+    background-color: rgba(241, 176, 209, 0.863);
+    color: white;
+    text-align: center;
+}
+header h1 {
+    color: rgb(78, 34, 41);
+}
+header h2{
+    color:rgb(255, 55,88);
+}
+

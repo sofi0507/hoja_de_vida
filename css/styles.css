@@ -1,9 +1,14 @@
 body {
+    margin: 0;
     background-color: #b37bfd3a;
     color: #601a99b9;
     font-family:Georgia, serif;
+    line-height: 1.6;
 }
 
+*{
+    box-sizing: border-box;
+}
 h1{
     color: #1f2937;
     font-size: 40px;
@@ -13,6 +18,10 @@ SECCIONES
 ====================== */
 section { /*ETIQUETA*/
     background-color: rgb(18, 219, 18);
+    padding: 25px;
+    margin: 20px;
+    border: 3px solid rgb(150, 31, 76);
+    border-radius: 30px;
 }
 
 .seccion{  /*CLASE*/
@@ -57,3 +66,112 @@ header h2{
     color:rgb(255, 55,88);
 }
 
+header img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgb(150, 31, 76);
+}
+
+/*======================
+ENLACES
+===================*/
+a{
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/*========================
+LISTAS
+====================*/
+ul{
+    padding-left: 20px;
+}
+li{
+    margin-bottom:5px;
+}
+/*========================
+FORMULARIO
+====================*/
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #881c40;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #660e21;
+}
+
+/* TABLAS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #8a182b;  
+    color: #ffffff;
+}
+/* PROYECTOS */
+.proyectos {
+    background-color: #fc64b0ad; 
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.educacion {
+    background-color: #64ddfcad; 
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.experiencia {
+    background-color:#64ddfcad; 
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #7e0e0e;
+}
+/* PIE DE PAGINA */
+footer {
+    background-color: #53111f; 
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #93c5fd; 
+    text-decoration: none;
+}
